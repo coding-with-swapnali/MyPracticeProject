@@ -1,0 +1,166 @@
+ Consider a system that maintains a catalogue of books. 
+A user can search for various types of books, view details of any book, edit those details and even delete a book from the system. 
+List down Restful API Endpoints for all the CRUD operations and relevant details around parameters that would be passed in each of them *
+Example - GET /users/:id
+
+
+
+
+
+
+
+
+Consider a system that maintains a catalogue of books. 
+Each book can be written by one Author, and an Author can write multiple books.
+ Write a SQL query to find author who has written the second highest number of books. 
+Note: Please provide (1) DB tables that includes column names, primary key, foreign keys (2) Actual SQL Query *
+
+
+
+1. Days of the week are represented as three-letter strings(‘mon’, ‘tue’, ‘wed’, ‘thu’, ‘fri’,
+‘sat’, ‘sun’)
+Write a function solution that given a string S representing the day of the week and an
+integer K (between 0 and 500, inclusive), returns the day of the week that is K days later.
+For example, given S=”wed” and K =2, the function should return “fri”
+Given s = “sat” and k=23 the function should return “mon’
+
+
+
+2) Write a Python program to find if string is substring of a string without using built-in-functions and regex. Also find the number of times that substring is present in the string.
+
+ 
+Input = "Hello Amita"
+
+Output: "Amit" - True: Count 1
+
+Input = "hello welcome home"
+
+Output: "owel" – False: Count 0
+
+Input = "It's quite late, Let's have a dinner now"
+
+Output:  "t's" - True: Count 2
+
+
+
+4. Implement a class (Python) that reads the json file from the file system. Define a method on a class that returns user details based on the user-name. Ensure that the class can have only one object at max.
+
+
+
+a.    json eg. {'user_1':{'id':1,'name':'ABC', 'Age' : 25}, 'user_2':{'id':2,'name':'XYZ', 'Age' : 35}}
+
+b.    User to be filtered on name.
+
+Input: If user ABC selected
+
+Output: Implemented Class should give all details against that user, viz ID, Age, Name, etc.
+
+
+
+
+
+
+
+. Write a python program to parse a log file and print all the logs for the last 1 hour (or any given time frame).
+
+ 
+
+ 
+
+Output can vary based on the log structure assumed for writing program.
+
+Sample below (Note: Candidate can change the logs & date/time structure as per his/her choice)
+
+INPUT
+
+31-05-2021 04:51:32.086018 ^[[0;33minit_host^[[0;34m EXIT ^[[0m(Return Value(s):None) /home/stack/myansible/lib/python3.6/site-packages/workloadmgr/workloads/manager.py 190
+
+31-05-2021 05:51:32.135115 ^[[0;33minit_host^[[0;34m EXIT ^[[0m(Return Value(s):None) /home/stack/myansible/lib/python3.6/site-packages/workloadmgr/workloads/manager.py 190
+
+31-05-2021 06:51:32.170321 ^[[0;33minit_host^[[0;34m EXIT ^[[0m(Return Value(s):None) /home/stack/myansible/lib/python3.6/site-packages/workloadmgr/workloads/manager.py 190
+
+31-05-2021 07:51:32.235362 ^[[0;33minit_host^[[0;34m EXIT ^[[0m(Return Value(s):None) /home/stack/myansible/lib/python3.6/site-packages/workloadmgr/workloads/manager.py 190
+
+ 
+
+Output (To fetch logs upto 2 hours from now at 08:51:00)
+
+31-05-2021 06:51:32.170321 ^[[0;33minit_host^[[0;34m EXIT ^[[0m(Return Value(s):None) /home/stack/myansible/lib/python3.6/site-packages/workloadmgr/workloads/manager.py 190
+
+31-05-2021 07:51:32.235362 ^[[0;33minit_host^[[0;34m EXIT ^[[0m(Return Value(s):None) /home/stack/myansible/lib/python3.6/site-packages/workloadmgr/workloads/manager.py 190
+
+
+
+
+
+
+
+
+Write a python program to login to remote Linux machines and fetch details like disk usage, memory usage & CPU utilization. Ensure that the program/script is scalable so as to accommodate increase in the number of remote machines in the future. Try to make the program efficient from a performance perspective (Eg. parallel execution).
+
+Assume all remote servers have the same user id/passwords.
+
+ 
+
+Output:
+
+Server_1_IP
+
+          DiskUsage
+
+                     <Output of DiskUsage command>
+
+          MemoryUsage
+
+                     <Output of MemoryUsage command>
+
+          CPUUtilization
+
+                     <Output of CPUUtilization command>
+
+Server_2_IP
+
+          DiskUsage
+
+                     <Output of DiskUsage command>
+
+          MemoryUsage
+
+                     <Output of MemoryUsage command>
+
+CPUUtilization
+
+                     <Output of CPUUtilization command>
+
+….and so, on as per number of remote Servers added.
+
+
+
+2.How to find duplicate characters in a String?
+For example, if given String is "Programming" then your program should print
+g : 2
+r : 2
+m : 2
+
+
+
+3. Write a python script that reads a file and creates a dictionary with key as word and value as number of occurrences of that word in the file.
+ Do not use any in-built python functions
+
+ 
+
+File content:
+
+Hello world
+
+This is the first line of the file
+
+This is the second line
+
+Output:
+
+{"Hello": 1, "world": 1, "This": 2, "is": 2, "the": 3, "first": 1, "line": 2, "of": 1, "file": 1, "second": 1}
+
+
+
+4)how u find disk usage in unix.configuration in unix.

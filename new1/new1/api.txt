@@ -1,0 +1,24 @@
+1....EmpModel(models.Model)
+	EmpName = models.charfield()
+2.....Empserializer(serializer.Serializers):
+	EmpNmae = serializer.CharField():
+3.....create view
+
+
+class Empdetail(APIView):
+
+
+def get(self,request):
+	emp=Employee.objects.all()
+	serializerobj = Empserializers(emp,Many=True)
+	return response(serializerobj,status) 
+	
+
+def POst(self,request):
+	seriallizerobj = Empserializer(data=request.data)
+	if serializeobj.is_valid():
+	serializerobj.save()
+	return response(data,status)
+
+def patch(self,request,id):
+	

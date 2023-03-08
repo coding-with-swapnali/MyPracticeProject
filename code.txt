@@ -1,0 +1,54 @@
+How to find duplicate characters in a String?
+For example, if given String is "Programming" then your program should print
+g : 2
+r : 2
+m : 2
+
+code:
+str1 = "Programming"
+count=0
+for i in range(len(str1)):
+    for j in range(i+1,len(str1)):
+        if str1[i] == str1[j]:
+            print(str1[i],count)
+            count+=1
+
+my oupput:
+r 0
+g 1
+m 2
+
+
+
+
+3. Write a python script that reads a file and creates a dictionary with key as word and value as number of occurrences of that word in the file.
+ Do not use any in-built python functions
+
+ 
+
+File content:
+
+Hello world
+
+This is the first line of the file
+
+This is the second line
+
+Output:
+
+{"Hello": 1, "world": 1, "This": 2, "is": 2, "the": 3, "first": 1, "line": 2, "of": 1, "file": 1, "second": 1}
+
+
+
+
+code:
+ f= open('C:\\Users\\Admin\\Desktop\\New folder\\file1.txt') 
+line = f.read()
+count=0
+for element in line:
+	line[element]=count[element]
+
+
+
+4)how u find disk usage in unix.configuration in unix.
+	

@@ -1,0 +1,20 @@
+
+   1.) Check if a string is anagram of other string:
+Anagram means two strings have same set of characters, only their order has changed
+Example : 'host', 'thos' are anagrams
+
+2)Given a number 'num' find the pair of numbers from list 'l' whose addition is equal to num.
+num =5
+l=[1,2,3,4,5,6]
+
+3)list [1,1,0,0,0,1,1,1,0,1,1,1,1] contains binary numbers only i.e. (0, 1).
+Find the length of longest sequence of 1s.
+
+4)Reverse a given list .
+5)Reverse a given string.
+6)Sort a list without using built in function(ascending or decending order).
+7)Count no.of given list.
+8)Find min or max of given list without using inbuilt function.
+9)REmove duplicate element of list.
+10)count no.of element in list.
+11)get only file name by using logging.	
